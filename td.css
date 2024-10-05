@@ -26,6 +26,7 @@ body {
 
 /* Message styles */
 .message-container {
+    color: white;
     text-align: center;
     padding: 80px;
     border-radius: 10px;
