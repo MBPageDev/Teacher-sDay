@@ -186,6 +186,31 @@ body {
     }
 }
 
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Adjust padding as needed */
+    background: rgba(255, 255, 255, 0.2); /* Glass effect */
+    backdrop-filter: blur(10px); /* Blur effect for glass appearance */
+    border-top: 1px solid rgba(255, 255, 255, 0.3); /* Light border for depth */
+    position: absolute; /* Fix footer at the bottom */
+    border-radius:10%;
+    bottom: 0;
+    left: 50%; /* Center the footer */
+    transform: translateX(-50%); /* Adjust for the width of the footer */
+    width: 20%; /* Set width to 20% */
+    color: #fff; /* Text color */
+    font-family: 'Poppins', sans-serif;
+    text-align: center; /* Center text within the footer */
+}
+
+/* Footer text */
+.footer-text {
+    font-size: 1em; /* Font size for footer text */
+}
+
 /* Very small devices (400px and below) */
 @media screen and (max-width: 400px) {
     #message {
