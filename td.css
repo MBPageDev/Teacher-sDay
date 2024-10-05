@@ -63,7 +63,7 @@ body {
 #message {
     font-size: 3em;
     animation: pulse-message 2s infinite;
-    color: white;
+     color: #ffffff;
 }
 
 /* Date in circles */
